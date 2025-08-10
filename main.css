@@ -1,5 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #EEE;
+}
+.container{
+    width: 450px;
+    
+}
+
+.Card{
+    width: 450px;
+    height: 200px;
+    background-color: #FFF;
+    margin: 30px 0;
+    padding: 20px 0;
+}
+.CardTask{
+    width: 450px;
+    background-color: #FFF;
+    margin: 10px 0;
+    padding: 20px 0;
+    padding-left: 10px;
+    list-style: none;
+}
+h1{
+    margin: 10px;
+}
+
+input{
+    width: 420px;
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    background-color: #DDD;
+}
+
+button{
+    width: 420px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    background-color: #4c0177;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #600296;
+}
+.concluida {
+    text-decoration: line-through;
+    color: #aaa;
+    opacity: 0.7;
+}
+
+#task:hover{
+    cursor: pointer;
+
+}
+
+ul li{
+        list-style: none;
 }
